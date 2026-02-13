@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(node:*)",
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "Bash(netstat:*)",
+      "Bash(taskkill:*)",
+      "Bash(findstr:*)",
+      "Bash(curl:*)",
+      "Bash(npm install:*)",
+      "Bash(tasklist:*)",
+      "Bash(npm start)",
+      "Bash(timeout:*)",
+      "Bash(mysql:*)",
+      "Bash(\"C:\\\\Program Files\\\\MySQL\\\\MySQL Server 8.0\\\\bin\\\\mysql.exe\" -u root -proot my_app -e \"SET NAMES utf8mb4; INSERT IGNORE INTO users \\(id, email, password, name, nickname\\) VALUES \\(1, ''seller@test.com'', ''test123'', ''TestSeller'', ''SaleKing''\\);\")",
+      "Bash(\"C:\\\\Program Files\\\\MySQL\\\\MySQL Server 8.0\\\\bin\\\\mysql.exe\" -u root -e \"SELECT 1;\")",
+      "Bash(\"C:\\\\Program Files\\\\MySQL\\\\MySQL Server 8.0\\\\bin\\\\mysql.exe\" -u root my_app -e \"SET NAMES utf8mb4; SELECT id, email FROM users LIMIT 3;\")",
+      "Bash(\"C:\\\\Program Files\\\\MySQL\\\\MySQL Server 8.0\\\\bin\\\\mysql.exe\" -u root my_app -e:*)",
+      "Bash(\"C:\\\\Program Files\\\\MySQL\\\\MySQL Server 8.0\\\\bin\\\\mysql.exe\" -u root my_app:*)",
+      "Bash(\"C:\\\\Program Files\\\\MySQL\\\\MySQL Server 8.0\\\\bin\\\\mysql.exe\" -u root my_app -e \"SHOW COLUMNS FROM auction_items WHERE Field=''status'';\")",
+      "Bash(\"C:\\\\Program Files\\\\MySQL\\\\MySQL Server 8.0\\\\bin\\\\mysql.exe\" -u root my_app -e \"SELECT DISTINCT status FROM auction_items LIMIT 5;\")",
+      "Bash(chcp 65001)",
+      "Bash(\"C:\\\\Program Files\\\\MySQL\\\\MySQL Server 8.0\\\\bin\\\\mysql.exe\" -u root my_app --default-character-set=utf8mb4 -e \"SELECT DISTINCT status FROM auction_items LIMIT 5;\")",
+      "Bash(\"C:\\\\Program Files\\\\MySQL\\\\MySQL Server 8.0\\\\bin\\\\mysql.exe\" -u root my_app -e \"SELECT id, email, password FROM users WHERE id=80;\")",
+      "Bash(start //B node src/app.js)",
+      "Bash(ping:*)",
+      "Bash(gcloud --version:*)",
+      "Bash(start https://cloud.google.com/sdk/docs/install)",
+      "Bash(gcloud config set:*)",
+      "Bash(xcopy:*)",
+      "Bash(powershell -Command \"Remove-Item -Path ''C:\\\\nodeProject'' -Recurse -Force -ErrorAction SilentlyContinue; Copy-Item -Path ''C:\\\\Users\\\\SAMSUNG\\\\OneDrive\\\\Desktop\\\\nodeProject'' -Destination ''C:\\\\nodeProject'' -Recurse -Exclude ''node_modules'',''.git''\")",
+      "Bash(powershell -Command:*)",
+      "Bash(dir:*)",
+      "Bash(gcloud app deploy:*)",
+      "Bash(cmd /c \"cd C:\\\\deploy && gcloud app deploy --quiet\")"
+    ]
+  }
+}
